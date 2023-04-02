@@ -43,36 +43,45 @@
     </section>
 
     <!-- Project listing -->
-    <!-- Project 1 -->
-    <div class="col">
-      <div class="card">
-        <img src="project1.jpg" class="card-img-top" alt="Project 1">
-        <div class="card-body">
-          <h5 class="card-title">Project 1</h5>
-          <p class="card-text">Short description of Project 1.</p>
-          <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#project1Modal">View Details</a>
-        </div>
-      </div>
-      <!-- Project 1 Modal -->
-      <div class="modal fade" id="project1Modal" tabindex="-1" aria-labelledby="project1ModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered modal-lg">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title" id="project1ModalLabel">Mixed Messages</h5>
-              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-              <p>Mixed Messages is a Node.js console application that generates a random inspirational message.</p>
-              <p>Technologies used: Node.js.</p>
-              <a href="https://github.com/Stigg101/Mixed-Messages" target="_blank" rel="noopener noreferrer">View on GitHub</a>
-            </div>
-            <div class="modal-footer">
-              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal
-              ">Close</button>
+  <!-- Main content -->
+  <main class="container mt-5">
+    <!-- Introduction -->
+    <section>
+      <h1>Hello, I'm Gustav Heese!</h1>
+      <p>I'm a web developer with experience in HTML, CSS, and JavaScript. Check out some of my projects below.</p>
+    </section>
 
+    <!-- Featured projects -->
+    <section class="row row-cols-1 row-cols-md-2 g-4">
+      <!-- Project 1 -->
+      <div class="col">
+        <div class="card">
+          <img src="project1.jpg" class="card-img-top" alt="Project 1">
+          <div class="card-body">
+            <h5 class="card-title">Project 1</h5>
+            <p class="card-text">Short description of Project 1.</p>
+            <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#project1Modal">View Details</a>
+          </div>
+        </div>
+        <div class="modal fade" id="project1Modal" tabindex="-1" aria-labelledby="project1ModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="project1ModalLabel">Mixed Messages</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <p>Mixed Messages is a Node.js console application that generates a random inspirational message.</p>
+                <p>Technologies used: Node.js.</p>
+                <a href="https://github.com/Stigg101/Mixed-Messages" target="_blank" rel="noopener noreferrer">View on GitHub</a>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              </div>
             </div>
           </div>
         </div>
+      </div>
       <!-- Project 2 -->
       <div class="col">
         <div class="card">
