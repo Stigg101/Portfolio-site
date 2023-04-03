@@ -1,9 +1,9 @@
 /* Global styles */
 body {
-    font-family: "Roboto", sans-serif;
-    color: #333;
-    background-color: #f5f5f5;
-    line-height: 1.6;
+  font-family: "Roboto", sans-serif;
+  color: #333;
+  background-color: #f5f5f5;
+  line-height: 1.6;
 }
 
 h1,
@@ -12,209 +12,209 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 /* Biography section */
 .bio-row {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #e9ecef;
-    border: 3px solid #ced4da;
-    border-radius: 10px;
-    padding: 20px;
-    margin-bottom: 40px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #e9ecef;
+  border: 3px solid #ced4da;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 40px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .bio-img {
-    width: 250px;
-    height: 250px;
-    object-fit: cover;
-    border-radius: 50%;
-    margin-right: 20px;
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-right: 20px;
 }
 
 .bio-text {
-    flex: 1;
-    padding-left: 20px;
-    border-left: 3px solid #ced4da;
+  flex: 1;
+  padding-left: 20px;
+  border-left: 3px solid #ced4da;
 }
 
 /* Carousel */
 .carousel {
-    margin-bottom: 40px;
+  margin-bottom: 40px;
 }
 
 .carousel-item {
-    position: relative;
+  position: relative;
 }
 
 .carousel-item img {
-    max-height: 300px;
-    object-fit: cover;
+  max-height: 300px;
+  object-fit: cover;
 }
 
 .carousel-caption {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 100%;
-    text-align: center;
-    color: #fff;
-    font-size: 1.5rem;
-    background-color: rgba(0, 0, 0, 0.5);
-    padding: 20px;
-    border-radius: 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  text-align: center;
+  color: #fff;
+  font-size: 1.5rem;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  border-radius: 10px;
 }
 
 /* Navbar */
 .navbar-brand {
-    font-family: "Montserrat", sans-serif;
-    font-size: 1.5rem;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.5rem;
 }
 
 .nav-link {
-    font-size: 1.1rem;
+  font-size: 1.1rem;
 }
 
 /* Main content */
 .container {
-    max-width: 1200px;
+  max-width: 1200px;
 }
 
 /* Introduction */
 section {
-    margin-bottom: 2rem;
+  margin-bottom: 2rem;
 }
 
 h1 {
-    font-size: 2.5rem;
-    color: #4a4a4a;
-    margin-bottom: 1rem;
+  font-size: 2.5rem;
+  color: #4a4a4a;
+  margin-bottom: 1rem;
 }
 
 /* Featured projects */
 .card {
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    border: none;
-    border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border: none;
+  border-radius: 5px;
 }
 
 .card-img-top {
-    height: 200px;
-    object-fit: cover;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
+  height: 200px;
+  object-fit: cover;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
 }
 
 .card-title {
-    font-size: 1.5rem;
-    color: #4a4a4a;
+  font-size: 1.5rem;
+  color: #4a4a4a;
 }
 
 .card-text {
-    font-size: 1.1rem;
+  font-size: 1.1rem;
 }
 
 .btn {
-    background-color: #007bff;
-    border-color: #007bff;
+  background-color: #007bff;
+  border-color: #007bff;
 }
 
 .btn:hover {
-    background-color: #0056b3;
-    border-color: #0056b3;
+  background-color: #0056b3;
+  border-color: #0056b3;
 }
 
 /* Social links */
 .social-links {
-    margin-bottom: 1rem;
+  margin-bottom: 1rem;
 }
 
 .social-link {
-    display: inline-block;
-    margin: 0 10px;
-    color: #000;
-    transition: color 0.3s ease;
+  display: inline-block;
+  margin: 0 10px;
+  color: #000;
+  transition: color 0.3s ease;
 }
 
 .social-link:hover {
-    color: #007bff;
-    /* Change the color to your desired hover color */
-    text-decoration: none;
+  color: #007bff;
+  /* Change the color to your desired hover color */
+  text-decoration: none;
 }
 
 /* Media queries for responsive design */
 @media (max-width: 992px) {
-    h1 {
-        font-size: 2rem;
-    }
+  h1 {
+    font-size: 2rem;
+  }
 
-    .card-title {
-        font-size: 1.2rem;
-    }
+  .card-title {
+    font-size: 1.2rem;
+  }
 
-    .card-text {
-        font-size: 1rem;
-    }
+  .card-text {
+    font-size: 1rem;
+  }
 }
 
 @media (max-width: 768px) {
-    h1 {
-        font-size: 1.5rem;
-    }
+  h1 {
+    font-size: 1.5rem;
+  }
 
-    .card-title {
-        font-size: 1rem;
-    }
+  .card-title {
+    font-size: 1rem;
+  }
 
-    .card-text {
-        font-size: 0.9rem;
-    }
+  .card-text {
+    font-size: 0.9rem;
+  }
 }
 
 /* Contact form */
 form {
-    background-color: #ffffff;
-    padding: 2rem;
-    border-radius: 5px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+  padding: 2rem;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 /* Footer */
 footer {
-    background-color: #333;
-    color: #fff;
-    padding: 1rem;
-    margin-top: 2rem;
+  background-color: #333;
+  color: #fff;
+  padding: 1rem;
+  margin-top: 2rem;
 }
 
 .btn {
-    transition: all 0.3s ease;
+  transition: all 0.3s ease;
 }
 
 .btn:hover {
-    background-color: #5a5a5a;
-    color: #ffffff;
+  background-color: #5a5a5a;
+  color: #ffffff;
 }
 
 .fade-in {
-    animation: fadeIn 1s ease-out forwards;
+  animation: fadeIn 1s ease-out forwards;
 }
 
 @keyframes fadeIn {
-    0% {
-        opacity: 0;
-    }
+  0% {
+    opacity: 0;
+  }
 
-    100% {
-        opacity: 1;
-    }
+  100% {
+    opacity: 1;
+  }
 }
 
 .fade-in.visible {
-    opacity: 1;
+  opacity: 1;
 }
